@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int A[5];//mendeklarasikan array A dengan 5 buah elemen bertipe integer
+   int C;
+
+   //memasukkan nilai ke dalam elemen array
+   for (int C=0; C<5; C++) {
+    cout<<"A["<<C<<"] = ";
+    cin>>A[C];
+   }
+   return 0;
+}
