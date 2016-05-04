@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int n;
+
+   cout<<"Jumlah bilangan = ";
+   cin>>n;
+   int Angka[n];
+   for (int i=0; i<n; i++) {
+        cout<<"Nilai ke-["<<i<<"] = ";
+        cin>>Angka[i];
+
+   }
+        cout<<"Nilai Array = "<<endl;
+        for (int i=0; i<n; i++)
+        cout<<"["<<Angka[i]<<"] ";
+
+        return 0;
+}
